@@ -1,0 +1,7 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "cmd+b", "command": "gitlens.toggleFileBlame",
+                       "when": "editorTextFocus && gitlens:isTracked" },
+    { "key": "cmd+alt+b", "command": "gitlens.toggleLineBlame" },                   
+    { "key": "cmd+\\",  "command": "workbench.action.toggleSidebarVisibility" }
+]
