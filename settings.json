@@ -1,0 +1,27 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.snippetSuggestions": "top",
+    "search.useIgnoreFilesByDefault": true,
+    "search.useIgnoreFiles": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "build/**": true,
+        "dist/**": true,
+        "**/bower_components": true
+    },
+    "editor.rulers": [120],
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Default Light+",
+    "window.nativeTabs": true,
+    "workbench.colorCustomizations": {
+        // "editor.selectionBackground": "#484713",
+        // "editor.selectionHighlightBackground": "#FFF",
+        // "editor.inactiveSelectionBackground": "#FFF"
+    },
+    "workbench.activityBar.visible": true,
+    "workbench.panel.location": "bottom"
+}
