@@ -6,7 +6,7 @@
        "USE_GITIGNORE": true
     },
     "editor.rulers": [80, 120],
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderWhitespace": "boundary",
@@ -22,12 +22,24 @@
         "suppressLineUncommittedWarning": false,
         "suppressNoRepositoryWarning": false,
         "suppressResultsExplorerNotice": true,
+        "suppressShowKeyBindingsNotice": true,
         "suppressUpdateNotice": true,
         "suppressWelcomeNotice": false
     },
     "explorer.confirmDelete": false,
-    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreview": true,
+    "window.nativeTabs": false,
+    "explorer.openEditors.visible": 0,
     "files.associations": {
         "*.tmp": "javascript"
-    }
+    },
+    "editor.tabSize": 2,
+    "gitlens.keymap": "chorded",
+    "explorer.confirmDragAndDrop": false,
+    "cSpell.language": "en",
+    "search.location": "panel",
+    "workbench.colorTheme": "One Dark Pro",
+    "explorer.autoReveal": true,
+    "editor.minimap.enabled": false,
+    // "files.autoSave": "onWindowChange"
 }
