@@ -29,5 +29,56 @@
 			"console.log({\n\t$1\n});"
 		],
 		"description": "Snippet for a console.log to print objects"
+	},
+
+	"Expand then callback": {
+		"prefix": "t>",
+		"body": [
+			".then(($1) => {\n\t$2\n})"
+		]
+	},
+
+	"then": {
+		"prefix": "then",
+		"body": [
+			".then(($1) => {",
+			"\t$2",
+			"})"
+		]
+	},
+
+	"catch": {
+		"prefix": "catch",
+		"body": [
+			".catch((err$1) => {",
+			"\t$2",
+			"})"
+		]
+	},
+
+	"describe": {
+		"prefix": "describe",
+		"body": [
+			"describe('', () => {",
+			"	before(() => {",
+			"",
+			"	});",
+			"",
+			"	beforeEach(() => {",
+			"",
+			"	});",
+			"",
+			"	afterEach(() => {",
+			"",
+			"	});",
+			"",
+			"	after(() => {",
+			"",
+			"	});",
+			"",
+			"	it('', () => {",
+			"	});",
+			"});"
+		]
 	}
 }
